@@ -1,5 +1,5 @@
 
-## try Interactive prototype
+## Try Interactive Prototype
 
 [Open the Virtual Wind Chime →](https://saragh21.github.io/virtual-wind-chime/)
 
