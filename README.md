@@ -18,21 +18,6 @@ Then open `http://localhost:8000/docs/`. No package installation or build step i
 
 Click or tap any tube, or press keys **1–5**, to strike it. **Wind intensity** changes the stochastic strike rate and strength. **Send a gust** creates a short burst of activity. **Resonance** scales modal decay times without changing pitch; **Output** controls listening level. The mode inspector displays the five source frequencies for the selected tube. Headphones reveal the stereo placement. Pause fades active voices; switching away from the page stops playback.
 
-## Publish on GitHub Pages
-
-After these files are committed to `main`, open the repository's **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**, then select **main** and **/docs**, and save. GitHub will report the published URL when deployment finishes. With the default project-site configuration, the expected address is `https://saragh21.github.io/virtual-wind-chime/`; it is not live merely because it appears here.
-
-See [GitHub's publishing-source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-
-## Files
-
-| Path | Purpose |
-| --- | --- |
-| `windchimes.m` | Original MATLAB analysis and synthesis sketch; unchanged by the browser addition |
-| `docs/index.html` | Portfolio layout, interactive instrument and research notes |
-| `docs/style.css` | Responsive visual design |
-| `docs/app.js` | Web Audio synthesis, stochastic events and animation |
-
 ## Sound design
 
 The browser renderer sums five damped sinusoidal modes per strike. It uses the hard-coded `tube_modes`, `gains` and `pole_radii` from `windchimes.m`. These frequency sets are not forced into a harmonic series or a musical scale. The unusual 64.6 Hz entry for Tube 1 is retained as source data, not validated as a measured resonance.
