@@ -52,8 +52,8 @@ Teemu Lukkari and Vesa Välimäki (2004). **Modal Synthesis of Wind Chime Sounds
 
 [Aalto University publication record](https://research.aalto.fi/en/publications/modal-synthesis-of-wind-chime-sounds-with-stochastic-event-trigge/)
 
-This is a closely relevant research reference. The original README and script do not identify the paper used in the course project, so its status as the project's original reference remains unconfirmed. The browser implementation should not be described as an exact implementation of this paper.
+This is a closely relevant research reference.  
 
 ## Verification
 
-JavaScript syntax was checked with `node --check docs/app.js`. Browser layout, interaction and audio playback have not yet been verified in the development environment because its preview service was unavailable. Test desktop and mobile playback before using the demo as a finished portfolio release.
+JavaScript syntax was checked with `node --check docs/app.js`. Browser layout, interaction and audio playback have not yet been verified in the development environment. Test desktop and mobile playback before using the demo as a finished portfolio release.
