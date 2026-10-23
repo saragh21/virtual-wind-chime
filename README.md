@@ -1,5 +1,5 @@
 
-## Visit and test Interactive prototype
+## try Interactive prototype
 
 [Open the Virtual Wind Chime →](https://saragh21.github.io/virtual-wind-chime/)
 
@@ -59,6 +59,4 @@ Teemu Lukkari and Vesa Välimäki (2004). **Modal Synthesis of Wind Chime Sounds
 
 This is a closely relevant research reference.  
 
-## Verification
-
-JavaScript syntax was checked with `node --check docs/app.js`. Browser layout, interaction and audio playback have not yet been verified in the development environment. Test desktop and mobile playback before using the demo as a finished portfolio release.
+ 
