@@ -1,3 +1,8 @@
+
+## Visit and test Interactive prototype
+
+[Open the Virtual Wind Chime →](https://saragh21.github.io/virtual-wind-chime/)
+
 # Virtual Wind Chime
 
 An audio signal processing study exploring how irregular excitation and decaying resonances can create an evolving wind-chime soundscape. The repository combines the original MATLAB analysis with a playable browser interpretation for the portfolio.
@@ -8,7 +13,7 @@ Final project for the Audio Signal Processing course in the master's programme i
 
 ## Play the prototype
 
-Open `docs/index.html` in a current browser and press **Start listening**. Alternatively, serve the repository locally:
+Open https://saragh21.github.io/virtual-wind-chime/  in a current browser and press **Start listening**. Alternatively, serve the repository locally:
 
 ```sh
 python3 -m http.server 8000
